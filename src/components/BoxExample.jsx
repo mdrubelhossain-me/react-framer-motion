@@ -1,12 +1,16 @@
 import React, { useState } from "react";
-import { AnimatePresence, motion as Motion } from "framer-motion";
+import { AnimatePresence, motion as Motion } from "motion/react";
 
 const BoxExample = () => {
   const [show, setShow] = useState(true);
 
   return (
-    <>
-      <button onClick={() => setShow(!show)}>
+    <div className="p-4 flex items-center justify-center">
+      <div>
+        <button
+        onClick={() => setShow(!show)}
+        className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+      >
         {show ? "Hide Box" : "Show Box"}
       </button>
 
@@ -18,21 +22,14 @@ const BoxExample = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -50 }}
             transition={{ duration: 0.5 }}
-            style={{
-              width: "200px",
-              height: "200px",
-              backgroundColor: "skyblue",
-              marginTop: "20px",
-              borderRadius: "10px",
-            }}
+            className="w-52 h-52 bg-sky-400 mt-5 rounded-lg flex items-center justify-center"
           >
-            <p style={{ textAlign: "center", paddingTop: "80px" }}>
-              This is a box
-            </p>
+            <p className="text-center">This is a box</p>
           </Motion.div>
         )}
       </AnimatePresence>
-    </>
+      </div>
+    </div>
   );
 };
 

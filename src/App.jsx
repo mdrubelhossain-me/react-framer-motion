@@ -1,9 +1,14 @@
 import React from "react";
-import { motion as Motion } from "motion/react"
+import { motion as Motion } from "motion/react";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div>
+      {/* Home Page */}
+      <Home />
+      {/* ----------- */}
+
       <Motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -14,7 +19,7 @@ const App = () => {
       </Motion.h1>
       <Motion.h1
         className="text-4xl font-bold mb-8 text-gray-800"
-        whileHover={{ scale: 0.9 , opacity: 0.5 }}
+        whileHover={{ scale: 0.9, opacity: 0.5 }}
       >
         Lorem ipsum dolor sit amet.
       </Motion.h1>

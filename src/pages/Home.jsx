@@ -7,12 +7,14 @@ import AllMotionApply from "../components/AllMotionApply";
 import TailwindAnimatedButton from "../components/TailwindAnimatedButton ";
 import Focus from "../components/Focus";
 import Propagation from "../components/Propagation";
+import SVGs from "../components/SVGs";
 
 const Home = () => {
   return (
     <div>
       <ScrollAnimation />
-      <Propagation/>
+      <SVGs />
+      <Propagation />
       <Focus />
       <TailwindAnimatedButton />
       <AllMotionApply />

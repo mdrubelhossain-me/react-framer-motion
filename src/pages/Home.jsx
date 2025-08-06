@@ -11,11 +11,13 @@ import SVGs from "../components/SVGs";
 import LayoutAnimation from "../components/LayoutAnimation";
 import LayoutToggleCard from "../components/LayoutToggleCard ";
 import AnimatesPresence from "../components/AnimatesPresence";
+import App from "../components/Modal";
 
 const Home = () => {
   return (
     <div>
       <ScrollAnimation />
+      <App/>
       <AnimatesPresence />
       <LayoutToggleCard />
       <LayoutAnimation />

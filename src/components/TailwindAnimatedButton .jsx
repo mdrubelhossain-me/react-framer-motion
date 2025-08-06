@@ -25,6 +25,7 @@ const iconVariants = {
 const TailwindAnimatedButton = () => {
   return (
     <div className="text-center p-4 flex flex-col items-center justify-center">
+      {/* hover, tap, pan */}
       <Motion.button
         whileHover="hover"
         whileTap="tap"

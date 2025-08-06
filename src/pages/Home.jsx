@@ -8,11 +8,15 @@ import TailwindAnimatedButton from "../components/TailwindAnimatedButton ";
 import Focus from "../components/Focus";
 import Propagation from "../components/Propagation";
 import SVGs from "../components/SVGs";
+import LayoutAnimation from "../components/LayoutAnimation";
+import LayoutToggleCard from "../components/LayoutToggleCard ";
 
 const Home = () => {
   return (
     <div>
       <ScrollAnimation />
+      <LayoutToggleCard/>
+      <LayoutAnimation/>
       <SVGs />
       <Propagation />
       <Focus />

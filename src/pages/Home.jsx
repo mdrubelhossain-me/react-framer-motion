@@ -12,11 +12,13 @@ import LayoutAnimation from "../components/LayoutAnimation";
 import LayoutToggleCard from "../components/LayoutToggleCard ";
 import AnimatesPresence from "../components/AnimatesPresence";
 import App from "../components/Modal";
+import AccordionGroup from "../components/Accordion ";
 
 const Home = () => {
   return (
     <div>
       <ScrollAnimation />
+      <AccordionGroup/>
       <App/>
       <AnimatesPresence />
       <LayoutToggleCard />

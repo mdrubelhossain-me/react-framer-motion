@@ -10,13 +10,15 @@ import Propagation from "../components/Propagation";
 import SVGs from "../components/SVGs";
 import LayoutAnimation from "../components/LayoutAnimation";
 import LayoutToggleCard from "../components/LayoutToggleCard ";
+import AnimatesPresence from "../components/AnimatesPresence";
 
 const Home = () => {
   return (
     <div>
       <ScrollAnimation />
-      <LayoutToggleCard/>
-      <LayoutAnimation/>
+      <AnimatesPresence />
+      <LayoutToggleCard />
+      <LayoutAnimation />
       <SVGs />
       <Propagation />
       <Focus />

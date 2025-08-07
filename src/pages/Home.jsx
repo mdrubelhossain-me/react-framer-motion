@@ -16,11 +16,13 @@ import AccordionGroup from "../components/Accordion ";
 import TransformScrollYProgress from "../components/TransformScrollYProgress";
 import HorizontalScroll from "../components/HorizontalScroll";
 import TrackElementWithinViewport from "../components/TrackElementWithinViewport";
+import ParallaxScroll from "../components/Parallax";
 
 const Home = () => {
   return (
     <div>
       <ScrollAnimation />
+      <ParallaxScroll/>
       <TrackElementWithinViewport/>
       {/* <TransformScrollYProgress/> */}
       <HorizontalScroll/>

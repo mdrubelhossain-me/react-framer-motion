@@ -14,12 +14,14 @@ import AnimatesPresence from "../components/AnimatesPresence";
 import App from "../components/Modal";
 import AccordionGroup from "../components/Accordion ";
 import TransformScrollYProgress from "../components/TransformScrollYProgress";
+import HorizontalScroll from "../components/HorizontalScroll";
 
 const Home = () => {
   return (
     <div>
       <ScrollAnimation />
       <TransformScrollYProgress/>
+      <HorizontalScroll/>
       <AccordionGroup/>
       <App/>
       <AnimatesPresence />

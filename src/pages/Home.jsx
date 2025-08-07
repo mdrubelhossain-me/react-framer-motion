@@ -15,12 +15,14 @@ import App from "../components/Modal";
 import AccordionGroup from "../components/Accordion ";
 import TransformScrollYProgress from "../components/TransformScrollYProgress";
 import HorizontalScroll from "../components/HorizontalScroll";
+import TrackElementWithinViewport from "../components/TrackElementWithinViewport";
 
 const Home = () => {
   return (
     <div>
       <ScrollAnimation />
-      <TransformScrollYProgress/>
+      <TrackElementWithinViewport/>
+      {/* <TransformScrollYProgress/> */}
       <HorizontalScroll/>
       <AccordionGroup/>
       <App/>

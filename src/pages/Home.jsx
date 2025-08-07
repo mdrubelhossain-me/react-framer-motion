@@ -13,11 +13,13 @@ import LayoutToggleCard from "../components/LayoutToggleCard ";
 import AnimatesPresence from "../components/AnimatesPresence";
 import App from "../components/Modal";
 import AccordionGroup from "../components/Accordion ";
+import TransformScrollYProgress from "../components/TransformScrollYProgress";
 
 const Home = () => {
   return (
     <div>
       <ScrollAnimation />
+      <TransformScrollYProgress/>
       <AccordionGroup/>
       <App/>
       <AnimatesPresence />

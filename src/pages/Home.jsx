@@ -17,17 +17,19 @@ import TransformScrollYProgress from "../components/TransformScrollYProgress";
 import HorizontalScroll from "../components/HorizontalScroll";
 import TrackElementWithinViewport from "../components/TrackElementWithinViewport";
 import ParallaxScroll from "../components/Parallax";
+import TransitionAll from "../components/TransitionAll";
 
 const Home = () => {
   return (
     <div>
       <ScrollAnimation />
-      <ParallaxScroll/>
-      <TrackElementWithinViewport/>
+      <TransitionAll />
+      <ParallaxScroll />
+      <TrackElementWithinViewport />
       {/* <TransformScrollYProgress/> */}
-      <HorizontalScroll/>
-      <AccordionGroup/>
-      <App/>
+      <HorizontalScroll />
+      <AccordionGroup />
+      <App />
       <AnimatesPresence />
       <LayoutToggleCard />
       <LayoutAnimation />
